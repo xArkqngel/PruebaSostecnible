@@ -1,0 +1,13 @@
+.navigation {
+    flex: 1; /* Add this to make navigation take up remaining space */
+    background-color: #ffffff; /* Add a background color to distinguish it from categories */
+}
+
+.selected-category{
+    color: #ffb179;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-left: 2em;
+}

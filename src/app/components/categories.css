@@ -1,0 +1,37 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: #ffb179;
+    border-radius: 0px 0px 28.5px 0px;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.text-wrapper-title {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.text-wrapper {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 15px;
+}
