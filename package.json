@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "antd": "^5.6.4",
     "eslint-config-next": "13.4.8",
     "next": "13.4.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-query": "^3.39.3"
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.14.1",
+    "react-select": "^5.7.3"
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.32.2"

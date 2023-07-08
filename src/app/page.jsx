@@ -1,6 +1,6 @@
 import React from 'react';
 import './globals.css'
-import MealCategories from '../components/categories';
+import MealCategories from '../components/categoriesNav';
 import Navigation from '../components/navigation';
 import Meals from '../components/meals';
 
