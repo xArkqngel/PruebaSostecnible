@@ -1,9 +1,12 @@
+"use client"
 import React from 'react';
-import Styles from './categories.css';
+import './categories.css';
+
 
 function MealCategories({categories}){
+
     return (
-        <div className='categories'>
+        <section className='categories'>
             <h1 className='title'>TheMealDB</h1>
             <div className='rectangle'>
                     <div className='list'>
@@ -19,7 +22,7 @@ function MealCategories({categories}){
                         ))}
                     </div>
                 </div>
-        </div>    
+        </section>    
     );
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import Styles from './globals.css'
-import MealCategories from './components/categories';
-import Navigation from './components/navigation';
+import './globals.css'
+import MealCategories from '../components/categories';
+import Navigation from '../components/navigation';
 
 async function getCategories() {
   const response = await fetch('https://www.themealdb.com/api/json/v1/1/categories.php');
