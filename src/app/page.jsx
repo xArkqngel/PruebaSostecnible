@@ -21,6 +21,7 @@ async function IndexPage() {
   const categories = await getCategories();
   const meals = await getMeals();
   return (
+    
     <div className='container'>
       <MealCategories categories={categories.categories} />
       <div className='meals'>

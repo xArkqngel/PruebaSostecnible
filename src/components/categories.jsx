@@ -1,9 +1,8 @@
+"use client"
 import React from 'react';
 import './categories.css';
 
-
 function MealCategories({categories}){
-
     return (
         <section className='categories'>
             <h1 className='title'>TheMealDB</h1>
