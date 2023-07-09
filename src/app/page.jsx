@@ -2,7 +2,7 @@ import React from 'react';
 import './globals.css'
 import CategoriesNav from '../components/CategoriesNav';
 import {getCategories} from '../services/mealsAPI';
-import CategoryPage from '../category/[category]/page';
+import CategoryPage from './category/[category]/page';
 
 async function IndexPage() {
   const categories = await getCategories();

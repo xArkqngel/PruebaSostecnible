@@ -1,6 +1,6 @@
-import { getMealsByCategory } from "../../services/mealsAPI";
-import MealCard from "../../components/MealCard";
-import NavigationHeader from "../../components/NavigationHeader";
+import { getMealsByCategory } from "../../../services/mealsAPI";
+import MealCard from "../../../components/MealCard";
+import NavigationHeader from "../../../components/NavigationHeader";
 
 
 async function CategoryPage({params}){
