@@ -53,6 +53,6 @@
 }
 
 .categories a:hover{
-    color: #996b4a;
+    font-weight: bold;
     transition: color 0.1s ease-in-out;
 }

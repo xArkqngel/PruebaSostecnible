@@ -1,5 +1,4 @@
 .meal-card{
-
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -11,7 +10,7 @@
 }
 
 .meal-card img{
-    height: 250px;
+    height: 276.6px;
     border-radius: 10px;
 }
 
