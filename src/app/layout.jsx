@@ -1,5 +1,5 @@
+import CategoryPage from '../category/[category]/page'
 import './globals.css'
-//import {CategoryContext} from '../context/categoryContext'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })

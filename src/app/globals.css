@@ -1,16 +1,34 @@
-.container{
-    display: flex;
+.meals-container{
     height: 100vh;
+    padding: 20px 70px;
+    display: grid;
+    gap: 20px;
+    margin-left: 300px;
 }
 
-.meals{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.nav-container{
+    position: fixed;
+  top: 0;
+  left: 0;
+  padding: 21px 20px 21px 30px;
+  min-height: 100vh;
+  width: 275px;
+  background-color: #ffb179;
+  border-bottom-right-radius: 28.5px;
 }
 
-.body{
+.meals-display{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+body{
     margin: 0;
+}
+
+main{
+    overflow-y: auto;
+    height: 100vh;
+    margin-left: 250px;
 }

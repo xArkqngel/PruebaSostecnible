@@ -1,12 +1,12 @@
 .categories {
     display: flex;
     flex-direction: column;
-    width: auto;
-    background-color: #ffb179;
     border-radius: 0px 0px 28.5px 0px;
     padding: 20px;
     flex-shrink: 0;
     color : #ffffff;
+    min-height: 100vh;
+    width: 20%;
 }
 
 .rectangle {
