@@ -27,7 +27,7 @@ async function MealPage({params}){
                             const ingredientNumber = key.replace("strIngredient", "");
                             const measureKey = `strMeasure${ingredientNumber}`;
                             return (
-                            <li key={ingredientNumber}>
+                            <li className="ingredients-li" key={ingredientNumber}>
                                 {meal[0][key]} - <span className="meal-measure">{meal[0][measureKey]}</span>
                             </li>
                             );
