@@ -31,16 +31,16 @@ function Search(){
     }
 
     return(
-        <form className='search'>
-            <input type='text' placeholder='Buscar' value={search} onChange={handleSearch}/>
+        <form className='search-form'>
+            <input className='search-bar' type='text' placeholder='Buscar' value={search} onChange={handleSearch}/>
             {showMeals
             ? <div className='search-results'>
-                <ul className='meals-list'>
+                <ul className='meals-search-list'>
                     {meals ? meals.map((meal)=>(
-                        <li key={meal.idMeal}>
+                        <li className='meal-search-card' key={meal.idMeal}>
                             <MealInfo meal={meal}/>
                         </li>
-                    )) : <p>NotFound</p>}
+                    )) : <p>404</p>}
                 </ul>
             </div>
             : <></>}
