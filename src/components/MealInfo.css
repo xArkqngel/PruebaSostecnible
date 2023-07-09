@@ -1,0 +1,71 @@
+.info-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    height: 5em;
+    border-radius: 10px;
+}
+
+.info-container h1 h3{
+    text-decoration: none;
+    color: black;
+}
+
+.info-container:hover{
+    background-color: #fff3eab6;
+}
+
+.meal-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.meal-infocards{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.meal-name{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0.5em;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.meal-category{
+    width: 25%;
+    font-size: 0.8em;
+    margin: 0.5em;
+    background-color: #ffb179d8;
+    border-radius: 15px;
+    padding: 3.5px;
+    color: white;
+    font-weight: 300;
+}
+
+.meal-area{
+    width: 25%;
+    font-size: 0.8em;
+    margin: 0.5em;
+    background-color:#60d371e1;
+    border-radius: 15px;
+    padding: 3.5px;
+    color: white;
+    font-weight: 300;
+}
+
+.meal-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.meal-image img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}

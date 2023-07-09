@@ -1,7 +1,11 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { getCategories } from '../services/mealsAPI'
+import CategoriesNav from '../components/CategoriesNav'
 
 const inter = Inter({ subsets: ['latin'] })
+const categories = await getCategories();
+
 
 export const metadata = {
   title: 'The Meal DB',
@@ -12,6 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+          <div className='nav-container'>
+            <CategoriesNav categories={categories.categories} />
+          </div>
         {children}
       </body>
     </html>

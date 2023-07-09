@@ -6,7 +6,7 @@ import NavigationHeader from "../../../components/NavigationHeader";
 async function CategoryPage({params}){
     const meals = await getMealsByCategory(params.category);
     return (
-        <div>
+        <div className="meals-container">
             <NavigationHeader category={params.category}/>
             <div className="meals-display">
                 {meals.meals.map(meal => (
