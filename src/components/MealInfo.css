@@ -19,43 +19,6 @@
     flex-direction: column;
 }
 
-.meal-infocards{
-    display: flex;
-    flex-direction: row;
-}
-
-
-.meal-name{
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0.5em;
-    text-align: left;
-    text-decoration: none;
-    color: black;
-}
-
-.meal-category{
-    width: 25%;
-    font-size: 0.8em;
-    margin: 0.5em;
-    background-color: #ffb179d8;
-    border-radius: 15px;
-    padding: 3.5px;
-    color: white;
-    font-weight: 300;
-}
-
-.meal-area{
-    width: 25%;
-    font-size: 0.8em;
-    margin: 0.5em;
-    background-color:#60d371e1;
-    border-radius: 15px;
-    padding: 3.5px;
-    color: white;
-    font-weight: 300;
-}
-
 .meal-image{
     width: 100%;
     display: flex;

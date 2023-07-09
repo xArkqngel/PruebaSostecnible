@@ -11,9 +11,8 @@ export async function getMealsByCategory(category) {
 }
 
 export async function getMealById(id) {
-    const response = await fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`);
-    const data = await response.json();
-    return data;
+    const meal = await fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`).then((response) => response.json());
+    return meal.meals;
 }
 
 export async function getMealsByName(name) {

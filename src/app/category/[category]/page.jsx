@@ -8,7 +8,8 @@ async function CategoryPage({params}){
     return (
         <div className="meals-container">
             <NavigationHeader category={params.category}/>
-            <div className="meals-display">
+            <h3 className="meals-subtitle">Lista de comidas</h3>
+            <div className="meals-display-cards">
                 {meals.meals.map(meal => (
                     <MealCard key={meal.idMeal} meal={meal} />
                 ))}

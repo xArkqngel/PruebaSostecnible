@@ -16,10 +16,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <div className='content-container'>
           <div className='nav-container'>
-            <CategoriesNav categories={categories.categories} />
+              <CategoriesNav categories={categories.categories} />
           </div>
-        {children}
+          {children}
+        </div>
       </body>
     </html>
   )
