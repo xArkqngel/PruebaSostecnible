@@ -19,6 +19,23 @@ async function MealPage({params}){
                     <p className="meal-instructions">{meal[0].strInstructions.split('\n').map((line, index)=>(
                         <span key={index}><br/>{line}<br/></span>
                     ))}</p>
+                    <h2 className="meal-subtitle-ing">Ingredientes</h2>
+                    <div className="meal-ingredients-list">
+                    <ul>
+                        {Object.keys(meal[0]).map((key) => {
+                        if (key.includes("strIngredient") && meal[0][key]) {
+                            const ingredientNumber = key.replace("strIngredient", "");
+                            const measureKey = `strMeasure${ingredientNumber}`;
+                            return (
+                            <li key={ingredientNumber}>
+                                {meal[0][key]} - <span className="meal-measure">{meal[0][measureKey]}</span>
+                            </li>
+                            );
+                        }
+                        return null;
+                        })}
+                    </ul>
+                    </div>
                 </div>
             </div>
         </div>
